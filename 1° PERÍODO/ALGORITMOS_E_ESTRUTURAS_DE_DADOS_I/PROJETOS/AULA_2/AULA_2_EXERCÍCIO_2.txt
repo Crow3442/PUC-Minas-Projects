@@ -1,0 +1,47 @@
+Problema 2: Somar dois números inteiros
+
+Descrição Narrativa:
+
+    Solicite ao usuário que informe o primeiro número inteiro.
+    Solicite ao usuário que informe o segundo número inteiro.
+    Some os dois números.
+    Exiba o resultado da soma.
+
+Fluxograma:
+
+           +-----------------------------------+
+           |        Somar Dois Números         |
+           +-----------------------------------+
+                      |
+                      v
+        [Informe o primeiro número]
+                      |
+                      v
+         [Informe o segundo número]
+                      |
+                      v
+          [Somar os dois números]
+                      |
+                      v
+          [Exibir resultado da soma]
+                      |
+                      v
+           +----------------------------+
+           |   Fim do algoritmo soma   |
+           +----------------------------+
+
+Algoritmo em Portugol:
+
+algoritmo SomaDoisNumeros
+var
+    num1, num2, resultado: inteiro
+inicio
+    escreva("Informe o primeiro número inteiro: ")
+    leia(num1)
+    escreva("Informe o segundo número inteiro: ")
+    leia(num2)
+    
+    resultado <- num1 + num2
+    
+    escreva("A soma dos dois números é: ", resultado)
+fimalgoritmo

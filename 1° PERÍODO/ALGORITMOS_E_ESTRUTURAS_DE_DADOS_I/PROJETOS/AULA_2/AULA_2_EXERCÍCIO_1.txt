@@ -1,0 +1,57 @@
+Problema 1: Fazer uma gelatina de morango
+
+Descrição Narrativa:
+
+    Pegue um pacote de gelatina de morango.
+    Despeje o conteúdo do pacote em uma tigela.
+    Adicione água fervente conforme as instruções da embalagem.
+    Mexa bem até que a gelatina esteja completamente dissolvida.
+    Despeje a mistura em recipientes individuais.
+    Coloque na geladeira e deixe gelar por algumas horas até que a gelatina esteja firme.
+    Sirva e aproveite!
+
+Fluxograma:
+
+         +---------------------------------------+
+         |            Fazer Gelatina            |
+         +---------------------------------------+
+                      |
+                      v
+            [Pegar pacote de gelatina]
+                      |
+                      v
+       [Despejar conteúdo na tigela]
+                      |
+                      v
+  [Adicionar água fervente conforme instruções]
+                      |
+                      v
+           [Mexer até dissolver bem]
+                      |
+                      v
+       [Despejar em recipientes individuais]
+                      |
+                      v
+          [Levar à geladeira para gelar]
+                      |
+                      v
+            [Servir e aproveitar!]
+                      |
+                      v
+          +---------------------------------+
+          |   Fim do algoritmo da gelatina  |
+          +---------------------------------+
+
+Algoritmo em Portugol:
+
+algoritmo FazerGelatina
+inicio
+    escreva("Pegue um pacote de gelatina de morango.")
+    escreva("Despeje o conteúdo do pacote em uma tigela.")
+    escreva("Adicione água fervente conforme as instruções da embalagem.")
+    escreva("Mexa bem até que a gelatina esteja completamente dissolvida.")
+    escreva("Despeje a mistura em recipientes individuais.")
+    escreva("Coloque na geladeira e deixe gelar por algumas horas até que a gelatina esteja firme.")
+    escreva("Sirva e aproveite!")
+fimalgoritmo
+

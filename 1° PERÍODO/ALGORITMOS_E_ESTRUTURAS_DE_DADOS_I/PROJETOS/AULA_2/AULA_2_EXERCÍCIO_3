@@ -1,0 +1,47 @@
+Problema 3: Verificar se um aluno de AED I foi aprovado
+
+Descrição Narrativa:
+
+    Solicite ao usuário que informe a nota do aluno na disciplina de Algoritmos e Estruturas de Dados I.
+    Se a nota for maior ou igual a 6, exiba a mensagem "Aluno Aprovado".
+    Caso contrário, exiba a mensagem "Aluno Reprovado".
+
+Fluxograma:
+
+             +-------------------------------------------+
+             |   Verificar Aprovação em AED I           |
+             +-------------------------------------------+
+                          |
+                          v
+          [Informe a nota do aluno em AED I]
+                          |
+                          v
+       [É a nota maior ou igual a 6?]
+            /                  \
+           /                    \
+          /                      \
+    [Exibir "Aprovado"]     [Exibir "Reprovado"]
+          \                      /
+           \                    /
+            \                  /
+              \              /
+               v            v
+            +------------------------+
+            |   Fim do algoritmo    |
+            +------------------------+
+
+Algoritmo em Portugol:
+
+algoritmo VerificarAprovacaoAED
+var
+    nota: real
+inicio
+    escreva("Informe a nota do aluno em AED I: ")
+    leia(nota)
+    
+    se nota >= 6 entao
+        escreva("Aluno Aprovado")
+    senao
+        escreva("Aluno Reprovado")
+    fimse
+fimalgoritmo
