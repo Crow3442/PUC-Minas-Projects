@@ -24,7 +24,7 @@ Para qualquer dúvida, sugestão ou colaboração, sinta-se à vontade para entr
 
 - Email Profissional: [joao.rezende200@gmail.com](mailto:joao.rezende200@gmail.com)
 - LinkedIn: [João Eduardo](https://www.linkedin.com/in/crow3442/)
-- GitHub: [Joã Eduardo](https://github.com/Crow3442)
+- GitHub: [João Eduardo](https://github.com/Crow3442)
 
 Espera-se que este repositório seja uma fonte útil de referência e aprendizado contínuo ao longo de sua jornada acadêmica e profissional.
 
