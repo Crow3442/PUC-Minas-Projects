@@ -1,0 +1,166 @@
+/* Configurações Gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define variáveis de cor com root */
+:root {
+    --cor-primaria: #333; /* Cor primária */
+    --cor-secundaria: #fff; /* Cor secundária */
+    --cor-hover: #555; /* Cor ao passar o mouse */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(35, 94, 35);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--cor-secundaria);
+    text-decoration: none; 
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+main{
+    margin: 5%;
+    margin-top: 0;
+}
+
+#secao1 {
+    padding: 50px 0;
+}
+
+#secao1 h2 {
+    color: rgb(35, 94, 35);
+}
+
+#secao1 hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0; 
+}
+
+.perfil {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.profile-foto{
+    width: 400px;
+    border: solid 4px #000;
+    margin-right: 20px;
+}
+
+.conteudo {
+    text-align: left; /* Alinhar texto à esquerda */
+}
+
+.conteudo h3 {
+    color: rgb(35, 94, 35);
+    font-size: 35px;
+}
+
+.conteudo p{
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.redes-sociais {
+    margin-top: 10px; /* Espaçamento superior entre os ícones de rede social */
+}
+
+.redes-sociais img {
+    width: 30px; /* Largura dos ícones de rede social */
+    margin-right: 10px; /* Espaçamento à direita entre os ícones */
+}
+
+.visitas {
+    margin-top: 20px; /* Espaçamento superior entre o ícone de visitas e o número */
+}
+
+.visitas img {
+    width: 20px; /* Largura do ícone de visitas */
+    margin-right: 5px; /* Espaçamento à direita entre o ícone e o número */
+}
+
+
+/* Estilos para a segunda sessão */
+#secao2 {
+    padding: 50px 0; /* Espaçamento interno */
+}
+
+#secao2 h2 {
+    color: rgb(35, 94, 35); /* Cor de destaque para o título */
+    text-align: left; /* Alinhar o título à esquerda */
+}
+
+#secao2 h3 {
+    color: var(--cor-primaria); /* Cor de destaque para o título */
+    text-align: left; /* Alinhar o título à esquerda */
+    font-size: 35px;
+}
+
+#secao2 hr {
+    width: 100%; /* Linha horizontal com 100% de largura */
+    border: none;
+    border-top: 1px solid #ccc; /* Cor da linha */
+    margin: 20px 0; /* Espaçamento entre o título e a linha */
+}
+
+.repositorios {
+    display: flex; /* Exibe os blocos de repositórios em linha */
+    justify-content: space-around; /* Distribui os blocos de forma uniforme na linha */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando necessário */
+}
+
+.bloco {
+    width: 800px; /* Largura do bloco */
+    margin-bottom: 30px; /* Espaçamento inferior entre os blocos */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.bloco img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do bloco */
+    margin-top: 2%;
+}
+
+.icone-pessoa {
+    margin-top: 10px; /* Espaçamento superior entre o texto e os ícones */
+}
+
+.icone-pessoa img {
+    width: 20px; /* Largura dos ícones */
+    margin-right: 5px; /* Espaçamento à direita entre os ícones */
+}
+
