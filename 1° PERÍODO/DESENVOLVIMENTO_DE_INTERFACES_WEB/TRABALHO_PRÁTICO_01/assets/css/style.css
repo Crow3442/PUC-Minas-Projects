@@ -1,0 +1,317 @@
+/* Definindo variáveis de cores */
+:root {
+    --cor-primaria: #2E8B57; /* Cor principal */
+    --cor-secundaria: #9370DB; /* Cor secundária */
+    --cor-terciaria: #FFA500; /* Cor terciária */
+    --cor-quaternaria: #FF6347; /* Cor quaternária */
+    --cor-quintenaria: #1E90FF; /* Cor quinária */
+}
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do header */
+
+#meuHeader {
+    background-color: var(--cor-primaria) !important;
+}
+
+/* Removendo o fundo cinza da classe bg-light */
+#meuHeader .bg-light {
+    background-color: transparent !important;
+}
+
+/* Alterando a cor do texto para branco */
+#meuHeader .navbar-brand,
+#meuHeader .nav-link {
+    color: white !important;
+}
+
+/* Removendo a margem da classe bg-light */
+#meuHeader .bg-light {
+    padding: 2% !important;
+}
+
+/* Início do estilo do nome no header */
+.navbar-brand {
+    color: white;
+}
+
+/* Início do estilo dos menus no header */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: white;
+    padding: 1% 2%;
+}
+
+/* Efeito ao passar o mouse sobre os menus */
+.nav-link:hover {
+    color: var(--cor-secundaria);
+}
+
+/* Linha abaixo dos itens do menu ao passar o mouse */
+.nav-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--cor-secundaria);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+}
+/* Fim do estilo do header */
+
+
+
+
+
+/* Estilo da seção de Apresentação */
+
+/* Alinhamento do conteúdo à esquerda */
+#conteudoPrincipal {
+    text-align: left;
+}
+
+#secaoApresentacao {
+    padding: 4% 0;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.perfil-foto {
+    text-align: center;
+}
+
+.perfil-foto img {
+    margin-top: 25%;
+    max-width: 100%;
+}
+
+.perfil-conteudo h2 {
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.perfil-conteudo hr {
+    border-color: var(--cor-secundaria);
+    margin-bottom: 2rem;
+}
+
+.perfil-conteudo h3 {
+    color: var(--cor-terciaria);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.perfil-conteudo p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.perfil-conteudo strong {
+    color: #000000 50%;
+}
+
+.redes-sociais {
+    margin-top: 1rem;
+}
+
+.redes-sociais img{
+    margin-top: 2%;
+    width: 4%;
+}
+
+.redes-sociais a {
+    margin-right: 1rem;
+}
+/* Fim do estilo do header */
+
+
+
+
+/* Estilo da seção de Repositórios */
+
+#secaoRepositorios {
+    padding: 4% 0; /* Adicionando espaço interno */
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+#secaoRepositorios h2 {
+    color: var(--cor-secundaria); /* Cor do título */
+    font-size: 2rem; /* Tamanho do título */
+    margin-bottom: 1.5rem; /* Espaçamento inferior */
+}
+
+#secaoRepositorios hr {
+    border-color: var(--cor-secundaria); /* Cor da linha horizontal */
+    margin-bottom: 2rem; /* Espaçamento inferior */
+}
+
+.card {
+    background-color: #fff; /* Cor de fundo do card */
+    border: 1px solid #ccc; /* Borda do card */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra do card */
+    margin-bottom: 2rem; /* Espaçamento inferior entre os cards */
+}
+
+.card-body {
+    padding: 1.5rem; /* Espaçamento interno do corpo do card */
+}
+
+.card-title {
+    color: var(--cor-terciaria); /* Cor do título do card */
+    font-size: 1.5rem; /* Tamanho do título do card */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+.card-text {
+    color: #555; /* Cor do texto do card */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+.icones {
+    display: flex; /* Alinhamento dos ícones */
+    justify-content: space-between; /* Espaçamento entre os ícones */
+}
+
+.icones i {
+    font-size: 1.2rem; /* Tamanho dos ícones */
+    color: #555; /* Cor dos ícones */
+}
+
+.icones i:hover {
+    color: var(--cor-secundaria); /* Mudança de cor ao passar o mouse */
+    cursor: pointer; /* Cursor de apontar */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo da seção de Conteúdos Sugeridos */
+#secaoConteudos {
+    padding: 4% 0; /* Adicionando espaço interno */
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+#secaoConteudos h2 {
+    color: var(--cor-secundaria); /* Cor do título */
+    font-size: 2rem; /* Tamanho do título */
+    margin-bottom: 1.5rem; /* Espaçamento inferior */
+}
+
+#secaoConteudos hr {
+    border-color: var(--cor-secundaria); /* Cor da linha horizontal */
+    margin-bottom: 2rem; /* Espaçamento inferior */
+}
+
+.carousel-item img {
+    max-height: 400px; /* Altura máxima das imagens */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo do caption */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.carousel-caption h3 {
+    font-size: 1.5rem; /* Tamanho do título */
+}
+
+.carousel-caption p {
+    font-size: 1rem; /* Tamanho do texto */
+}
+
+
+
+
+
+
+
+
+/* Estilo da seção de Principais Colegas de Trabalho */
+#secaoColegas {
+    padding: 4% 0; /* Adicionando espaço interno */
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+#secaoColegas h2 {
+    color: var(--cor-secundaria); /* Cor do título */
+    font-size: 2rem; /* Tamanho do título */
+    margin-bottom: 1.5rem; /* Espaçamento inferior */
+}
+
+#secaoColegas hr {
+    border-color: var(--cor-secundaria); /* Cor da linha horizontal */
+    margin-bottom: 2rem; /* Espaçamento inferior */
+}
+
+.colega {
+    text-align: center; /* Centralizar conteúdo */
+    margin-bottom: 2rem; /* Espaçamento inferior entre colegas */
+}
+
+.colega img {
+    width: 100%; /* Garantir que a imagem ocupe toda a largura do container */
+    border-radius: 50%; /* Deixar a imagem circular */
+    max-width: 120px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática */
+}
+
+.colega .nome {
+    margin-top: 0.5rem; /* Espaçamento superior */
+    font-size: 1.2rem; /* Tamanho do nome */
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: var(--cor-secundaria); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+footer p {
+    margin: 0; /* Remover margem padrão */
+    font-size: 1rem; /* Tamanho do texto */
+}
+
+
+
+
