@@ -214,7 +214,7 @@
 }
 
 .carousel-item img {
-    max-height: 400px; /* Altura máxima das imagens */
+    max-height: 600px; /* Altura máxima das imagens */
 }
 
 .carousel-caption {
@@ -255,8 +255,8 @@
 
 .colega img {
     width: 100%; /* Garantir que a imagem ocupe toda a largura do container */
-    max-width: 120px; /* Largura máxima da imagem */
-    height: auto; /* Altura automática */
+    max-width: 320px; /* Largura máxima da imagem */
+    height: 200px; /* Altura automática */
 }
 
 .colega .nome {
