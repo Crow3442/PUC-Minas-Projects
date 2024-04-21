@@ -78,10 +78,6 @@
 }
 /* Fim do estilo do header */
 
-
-
-
-
 /* Estilo da seção de Apresentação */
 
 /* Alinhamento do conteúdo à esquerda */
@@ -144,9 +140,6 @@
 }
 /* Fim do estilo do header */
 
-
-
-
 /* Estilo da seção de Repositórios */
 
 #secaoRepositorios {
@@ -203,17 +196,6 @@
     cursor: pointer; /* Cursor de apontar */
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Estilo da seção de Conteúdos Sugeridos */
 #secaoConteudos {
     padding: 4% 0; /* Adicionando espaço interno */
@@ -249,13 +231,6 @@
     font-size: 1rem; /* Tamanho do texto */
 }
 
-
-
-
-
-
-
-
 /* Estilo da seção de Principais Colegas de Trabalho */
 #secaoColegas {
     padding: 4% 0; /* Adicionando espaço interno */
@@ -280,7 +255,6 @@
 
 .colega img {
     width: 100%; /* Garantir que a imagem ocupe toda a largura do container */
-    border-radius: 50%; /* Deixar a imagem circular */
     max-width: 120px; /* Largura máxima da imagem */
     height: auto; /* Altura automática */
 }
@@ -289,15 +263,6 @@
     margin-top: 0.5rem; /* Espaçamento superior */
     font-size: 1.2rem; /* Tamanho do nome */
 }
-
-
-
-
-
-
-
-
-
 
 /* Estilo do rodapé */
 footer {
@@ -315,3 +280,202 @@ footer p {
 
 
 
+/* Estilo para a seção dos detalhes do repositório */
+#secaoDetalhesRepo {
+    margin-top: 50px;
+}
+
+#secaoDetalhesRepo h2 {
+    margin-bottom: 20px;
+}
+
+#secaoDetalhesRepo .detalhes-repo {
+    margin-bottom: 30px;
+}
+
+#secaoDetalhesRepo .detalhes-repo h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#secaoDetalhesRepo .detalhes-repo p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#secaoDetalhesRepo .descricao {
+    margin-bottom: 20px;
+}
+
+#secaoDetalhesRepo .topicos-principais {
+    margin-bottom: 30px;
+}
+
+#secaoDetalhesRepo .topicos-principais h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#secaoDetalhesRepo .topico {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#secaoDetalhesRepo .topico p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ajustes de layout para telas menores */
+@media (max-width: 576px) {
+    /* Estilo do header para telas menores */
+    .navbar-brand,
+    .nav-link {
+        font-size: 14px; /* Reduzindo o tamanho da fonte */
+        padding: 8px; /* Ajustando o espaçamento interno */
+    }
+
+    .bg-light {
+        padding: 1% !important; /* Ajustando o espaçamento interno */
+    }
+
+    /* Estilo da seção de Apresentação para telas menores */
+    .perfil-foto img {
+        margin-top: 10%; /* Reduzindo a margem superior */
+    }
+
+    /* Estilo da seção de Repositórios para telas menores */
+    .card-title {
+        font-size: 1.2rem; /* Reduzindo o tamanho do título do card */
+    }
+
+    .card-text {
+        font-size: 14px; /* Reduzindo o tamanho do texto do card */
+    }
+
+    .icones i {
+        font-size: 1rem; /* Reduzindo o tamanho dos ícones */
+    }
+
+    /* Estilo da seção de Conteúdos Sugeridos para telas menores */
+    .carousel-caption h3 {
+        font-size: 1.2rem; /* Reduzindo o tamanho do título */
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem; /* Reduzindo o tamanho do texto */
+    }
+
+    /* Estilo da seção de Principais Colegas de Trabalho para telas menores */
+    .colega img {
+        max-width: 80px; /* Reduzindo a largura máxima da imagem */
+    }
+
+    .colega .nome {
+        font-size: 1rem; /* Reduzindo o tamanho do nome */
+    }
+
+    /* Estilo para a seção dos detalhes do repositório para telas menores */
+    #secaoDetalhesRepo .topico {
+        padding: 8px 10px; /* Ajustando o espaçamento interno */
+        font-size: 14px; /* Reduzindo o tamanho da fonte */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ajustes de layout para tablets */
+@media (min-width: 577px) and (max-width: 992px) {
+    /* Estilo do header para tablets */
+    .navbar-brand,
+    .nav-link {
+        font-size: 16px; /* Ajustando o tamanho da fonte */
+        padding: 10px; /* Ajustando o espaçamento interno */
+    }
+
+    .bg-light {
+        padding: 1% 2% !important; /* Ajustando o espaçamento interno */
+    }
+
+    /* Estilo da seção de Apresentação para tablets */
+    .perfil-foto img {
+        margin-top: 15%; /* Ajustando a margem superior */
+    }
+
+    /* Estilo da seção de Repositórios para tablets */
+    .card-title {
+        font-size: 1.3rem; /* Ajustando o tamanho do título do card */
+    }
+
+    .card-text {
+        font-size: 16px; /* Ajustando o tamanho do texto do card */
+    }
+
+    .icones i {
+        font-size: 1.2rem; /* Ajustando o tamanho dos ícones */
+    }
+
+    /* Estilo da seção de Conteúdos Sugeridos para tablets */
+    .carousel-caption h3 {
+        font-size: 1.5rem; /* Ajustando o tamanho do título */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Ajustando o tamanho do texto */
+    }
+
+    /* Estilo da seção de Principais Colegas de Trabalho para tablets */
+    .colega img {
+        max-width: 100px; /* Ajustando a largura máxima da imagem */
+    }
+
+    .colega .nome {
+        font-size: 1.1rem; /* Ajustando o tamanho do nome */
+    }
+
+    /* Estilo para a seção dos detalhes do repositório para tablets */
+    #secaoDetalhesRepo .topico {
+        padding: 10px 15px; /* Ajustando o espaçamento interno */
+        font-size: 16px; /* Ajustando o tamanho da fonte */
+    }
+}
